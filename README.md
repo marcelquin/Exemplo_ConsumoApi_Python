@@ -1,19 +1,30 @@
-# Monitor de Preços Bitcoin
+# Demo API Bitcoin - Python & NoSQL
 
-Uma aplicação Python que coleta dados de preços do Bitcoin da API Coinbase, armazena em um banco de dados NoSQL (TinyDB) e apresenta as informações em um dashboard interativo.
+Este projeto demonstra o consumo de uma API de cotação de Bitcoin utilizando Python, com armazenamento dos dados em banco NoSQL local.
 
-## Funcionalidades
+## 📋 Sobre o Projeto
 
-- ✨ Coleta automática de preços do Bitcoin a cada minuto
-- 📊 Dashboard interativo com Streamlit
-- 💾 Armazenamento em banco NoSQL (TinyDB)
-- 📈 Visualização de tendências e estatísticas
+O projeto realiza consultas automáticas à API de cotação do Bitcoin, armazena os dados históricos em um banco NoSQL local e disponibiliza visualizações dos dados coletados.
 
-## Requisitos
+## 🚀 Funcionalidades
+
+- Consulta automática de preços do Bitcoin
+- Armazenamento em banco NoSQL (MongoDB)
+- Dashboard para visualização dos dados
+- Histórico de cotações
+- Análise de tendências
+
+## 🛠️ Tecnologias Utilizadas
 
 - Python 3.8+
-- Dependências listadas em `requirements.txt`
+- MongoDB
+- Bibliotecas Python:
+  - requests
+  - pymongo
+  - pandas
+  - dash
+  - plotly
 
-## Instalação
+## ⚙️ Instalação
 
-1. Clone o repositório 
+1. Clone o repositório: 
